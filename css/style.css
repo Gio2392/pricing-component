@@ -42,6 +42,8 @@ p {
 }
 .grid__card {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 35rem));
+  justify-content: center;
   gap: 3.3rem;
 }
 .title {
@@ -98,7 +100,7 @@ p {
   text-align: center;
 }
 .card__price {
-  padding: 4rem 0;
+  padding: 3rem 0;
   font-size: 7.2rem;
   display: flex;
   justify-content: center;
@@ -163,7 +165,7 @@ p {
     background-position: top right, bottom left;
   }
   .grid__card {
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 35rem));
+    
     gap: 2.4rem;
     justify-content: center;
   }
